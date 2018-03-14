@@ -14,7 +14,7 @@ ENV PHP_XDEBUG_IDEKEY ${PHP_XDEBUG_IDEKEY:-docker}
 ENV PHP_XDEBUG_PROFILER_ENABLE ${PHP_XDEBUG_PROFILER_ENABLE:-0}
 ENV PHP_XDEBUG_PROFILER_OUTPUT_DIR ${PHP_XDEBUG_PROFILER_OUTPUT_DIR:-"/tmp"}
 
-LABEL Maintainer="Robin Oster <robin@prine.ch>" \
+LABEL Maintainer="Robin Oster <robin@prine.ch> created by Zaher Ghaibeh <z@zah.me>" \
       Description="Lightweight php 7.1 container based on alpine with xDebug enabled, SOPAP extensions enabled & composer installed." \
       org.label-schema.name="php-7.1-xdebug-alpine" \
       org.label-schema.description="Lightweight php 7.1 container based on alpine with xDebug enabled, SOPAP extensions enabled & composer installed." \
